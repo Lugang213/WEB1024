@@ -40,7 +40,7 @@ AJAX 是一种用于创建快速动态网页的技术。
 有很多使用 AJAX 的应用程序案例：新浪微博、Google 地图、开心网等等。
 
 ### 原生AJAX
-
+```markdown
 function Ajax(obj){
   //根据obj对method,data,url等进行初始化
 };
@@ -62,5 +62,5 @@ Ajax.prototype.send = function(){
     return fasle;
   }
 }
-
+```
 
